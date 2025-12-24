@@ -24,6 +24,9 @@ namespace Example
             IWebElement tileUITestingConcepts = driver.FindElement(By.XPath("//*[@id='optionsBody']/a[1]/div/main/div[2]"));
 
             tileUITestingConcepts.Click();
+
+
+
             driver.Quit();
 
         }
